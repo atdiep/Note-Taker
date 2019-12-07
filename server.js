@@ -34,7 +34,7 @@ app.post("/api/notes", function (req, res) {
         db = JSON.parse(data);
         if (newNote.id || newNote.id === 0) {
             let currNote = db[newNote.id];
-            currNote.title = newNote.title
+            currNote.title = newNote.title;
             currNote.text = newNote.text;
         } else {
             db.push(newNote);
