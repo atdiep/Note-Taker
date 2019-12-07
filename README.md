@@ -11,4 +11,4 @@ This application is created for users that need to keep track of important infor
 
 # Deployed Page
 
-https://note-takerad.herokuapp.com/notes
+https://note-takerad.herokuapp.com/
