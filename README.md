@@ -9,3 +9,6 @@ This application is created for users that need to keep track of important infor
 3. Write your own notes and click on the Save icon.
 4. If desired, use the garbage bin icon to delete any note.
 
+# Deployed Page
+
+https://note-takerad.herokuapp.com/notes
