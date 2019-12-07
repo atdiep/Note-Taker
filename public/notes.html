@@ -39,31 +39,4 @@
   <script src="/assets/js/index.js"></script>
 </body>
 
-<!-- <script type="text/javascript">
-
-  $(".save-note").on("click", function (event) {
-    event.preventDefault();
-
-    var inputTitle = $(".note-title").val();
-    var inputText = $(".note-textarea").val();
-
-    var payload = {"title":inputTitle,"text":inputText}
-
-    $.post("/api/notes", payload,
-      function(data) {
-        if (data) {
-          alert("Note is added");
-        }
-        else {
-          alert("Fail");
-        }
-
-        $(".note-title").val("");
-        $(".note-textarea").val("");
-
-      });
-  })
-
-</script> -->
-
 </html>
